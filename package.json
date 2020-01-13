@@ -1,5 +1,5 @@
 {
-  "name": "sapper-tailwindcss",
+  "name": "carl-library",
   "description": "",
   "version": "0.0.1",
   "repository": {
@@ -8,9 +8,8 @@
   },
   "scripts": {
     "dev": "sapper dev",
-    "build": "sapper build",
-    "export": "sapper export",
-    "now": "sapper build --legacy && now",
+    "build": "sapper build --legacy",
+    "export": "sapper export --legacy",
     "start": "node __sapper__/build",
     "all": "yarn build && yarn start",
     "update": "ncu -u && yarn install && git add package.json yarn.lock && git commit -m 'Update package.json'",
