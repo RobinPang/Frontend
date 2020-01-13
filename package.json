@@ -8,8 +8,8 @@
   },
   "scripts": {
     "dev": "sapper dev",
-    "build": "sapper build",
-    "export": "sapper export",
+    "build": "sapper build --legacy",
+    "export": "sapper export --legacy",
     "now": "sapper build --legacy && now",
     "start": "node __sapper__/build",
     "all": "yarn build && yarn start",
