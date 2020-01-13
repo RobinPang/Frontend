@@ -1,0 +1,6 @@
+{
+    "version": 2,
+      "builds": [
+      { "src": "__sapper__/build/index.js", "use": "now-sapper" }
+    ]
+  }

@@ -10,6 +10,7 @@
     "dev": "sapper dev",
     "build": "sapper build",
     "export": "sapper export",
+    "now": "sapper build --legacy && now",
     "start": "node __sapper__/build",
     "all": "yarn build && yarn start",
     "update": "ncu -u && yarn install && git add package.json yarn.lock && git commit -m 'Update package.json'",
