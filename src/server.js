@@ -25,4 +25,4 @@ const app = polka ()
     if (err) console.log('error', err);
   });
 
-export default app.handler
+export default app
